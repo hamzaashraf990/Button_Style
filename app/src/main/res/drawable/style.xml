@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--// Item For Pressed State True-->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/color" />
+            <corners android:radius="7dp" />
+        </shape>
+    </item>
+    <!--// Item for Pressed State False-->
+    <item android:state_pressed="false">
+        <shape>
+            <solid android:color="@color/colordefault" />
+            <corners android:radius="7dp" />
+        </shape>
+    </item>
+
+    <!--// Item That will be use by default-->
+    <item>
+        <shape>
+            <solid android:color="@color/color" />
+            <corners android:radius="7dp" />
+        </shape>
+    </item>
+</selector>
